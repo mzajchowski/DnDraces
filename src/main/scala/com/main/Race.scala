@@ -12,5 +12,5 @@ enum Race(raceName: RaceName,shortDescription: ShortDescription,longerDescriptio
   case halforc extends Race(RaceName.Halforc, ShortDescription.Halforc, LongerDescription.Halforc, RacialTraits.Halforc)
   case human extends Race(RaceName.Human, ShortDescription.Human, LongerDescription.Human, RacialTraits.Human)
   case tiefling extends Race(RaceName.Tiefling, ShortDescription.Tiefling, LongerDescription.Tiefling, RacialTraits.Tiefling)
-
+  var listOfRaces: List[Race] = List(dragonborn, dwarf, elf, gnome, halfelf, halfling, halforc, human, tiefling)
 }

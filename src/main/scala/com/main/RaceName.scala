@@ -1,3 +1,3 @@
 package com.main
 
-case class RaceName(raceName: Str
+case class RaceName(raceName: String)
